@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;
+}
+.header img{
+    height: 375px;
+    width:1015px;
+    vertical-align: middle;
+}
+#imgClinica{
+    height: 250px;
+    width:1015px;
+    vertical-align: middle;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    width: 975px;
+}
+.content div{
+    display: inline-block;
+    width: 450px;
+    height: 135px;
+    
+}
+.content h3{
+    border: 0;
+    margin: 50px;
+    outline: 50px;
+    padding: 50px;
+    vertical-align: baseline;
+    text-align: center;
+    
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+    
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    width: 975px;
+    vertical-align: middle;
+  }
+  th{
+    background-color: black;
+    color: aliceblue;
+  }
+  #div1{
+    background-color: aquamarine;
+    
+  }
+  #div2{
+    border: #af3232;
+  }
+ 
+ #form{
+    width: 905px;
+    height: 400px;
+    background-color: antiquewhite;
+ }
+
+ 
